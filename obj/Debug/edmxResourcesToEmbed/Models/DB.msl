@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PruebaCalderonModelStoreContainer" CdmEntityContainer="PruebaCalderonEntities">
+    <EntitySetMapping Name="EmpleadoActividad">
+      <EntityTypeMapping TypeName="PruebaCalderonModel.EmpleadoActividad">
+        <MappingFragment StoreEntitySet="EmpleadoActividad">
+          <ScalarProperty Name="idEmpActivid" ColumnName="idEmpActivid" />
+          <ScalarProperty Name="nombreCompleto" ColumnName="nombreCompleto" />
+          <ScalarProperty Name="actividad" ColumnName="actividad" />
+          <ScalarProperty Name="fechaInicio" ColumnName="fechaInicio" />
+          <ScalarProperty Name="fechaFin" ColumnName="fechaFin" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
